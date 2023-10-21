@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Inter', sans-serif,Italic;
+color: #000;
+}
+.header {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+.container {
+    
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__glav-block {
+    padding-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__item-line>a>img {
+    background: #000;
+    margin-bottom: 12px;
+    
+}
+
+/* содержимое хедера */
+.header-top {
+    
+    min-height: 1024px;
+    background-image: url(../image/fon-one-block.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.header-top__text {
+    position: relative;
+}
+.header-top__title {
+    padding-top: 382px;
+    margin-bottom: 41px;
+font-size: 50px;
+font-weight: 400;
+}
+.header-top__subtitle {
+    margin-bottom: 79px;
+    max-width: 540px;
+font-size: 16px;
+font-weight: 400;
+}
+.header-top__beig {
+    position: absolute;
+    left: 12%;
+display: inline-block;
+border-radius: 10px;
+border: 2px solid #000;
+padding: 17px 35px;
+transition: 1s;
+}
+.header-top__beig:focus {
+    outline: none;
+}
+.header-top__beig:hover {
+    border-color: #f50c0c;
+    color: rgb(24, 24, 239);
+}
+.header-top__beig:active {
+    background-color: #b40c7f;
+    color: #07f213;
+}
+.header-top__beig-text {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.header-bottom {
+    padding-top: 414px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+align-items: center;
+padding-bottom: 47px;
+}
+.header-bottom__left {
+    display: flex;
+    gap: 68px;
+    
+}
+.header-bottom__media {
+height: 44px;  
+}
+
+.header-bottom__right {
+    display: flex;
+    gap: 53px;
+}
+.header-bottom__beig {
+    display: flex;
+    border-radius: 100px;
+border: 1px solid #000;
+align-items: center;
+padding: 17px 30px;
+transition: 1s;
+
+}
+.header-bottom__beig:focus {
+    outline: none;
+}
+.header-bottom__beig:hover {
+    border-color: #f50c0c;
+    color: rgb(24, 24, 239);
+}
+.header-bottom__beig:active {
+    background-color: #b40c7f;
+    color: #07f213;
+}
+.header-bottom__beigh-text {
+font-size: 20px;
+font-weight: 400;
+}
+/* БЛОК ВТОРОЙ */
+.food__block {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:  40px;
+}
+.food__left {
+    padding-right: 4%;
+}
+.food__title {
+    max-width: 660px;
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 51px;
+}
+.food__image-top {
+    width: 443px;
+height: 267px;
+margin-bottom: 61px
+}
+.food__title2 {
+max-width: 597px;
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.food__image-bottom {
+width: 443px;
+height: 267px;
+margin-bottom: 50px;
+}
+
+/* блок2 */
+.food2 {
+    min-height: 1024px;
+    background-image: url(../image/pitanie1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:bottom right;
+}
+.food2__title {
+    padding-top: 119px;
+}
+.food2__title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.food2__schedule {
+    padding-left: 10%;
+}
+.food2__schedule-text {
+    color: #FFF;
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 35px;
+}
+.food2__beig{
+    display: inline-block;
+    margin-left: 13%;
+    margin-bottom: 365px;
+border-radius: 100px;
+background: #FFF;
+
+}
+
+.food2__beig-text {
+    padding: 0 25px;
+    color: #080303;
+font-size: 40px;
+font-weight: 400;
+}
+.food2__beig-text:focus {
+    outline: none;
+}
+.food2__beig-text:hover {
+    border-color: #f50c0c;
+    color: rgb(24, 24, 239);
+}
+.food2__beig-text:active {
+    background-color: #b40c7f;
+    color: #07f213;
+}
+/* блок 3 */
+.food3 {
+min-height: 1024px;
+background-image: url(../image/pitanie3.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:bottom right;
+}
+.food3__block {
+    padding-left: 53%;
+}
+.food3__schedule2 {
+    padding-left: 120px;
+}
+.food2__beig2 {
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 365px;
+border-radius: 100px;
+background: #FFF;
+
+}
+/* блок 4 */
+.food4 {
+    min-height: 1024px;
+background-image: url(../image/pitanie4.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:bottom right;
+}
+.food4__block {
+    padding-top: 297px;
+}
+.food4__title {
+    text-align: center;
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 7px;
+}
+.food4__subtitle {
+margin: 0 auto 336px;
+max-width: 553px;
+font-size: 40px;
+font-weight: 400;
+}
+/* подвал сайта */
+.footer {
+    background: #E3D7D7;
+}
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 55px 55px;
+    
+}
+.footer__right-media {
+    display: flex;
+    gap: 33px;
+}
+.footer__right-media2 {
+    height: 44px;
+}
